@@ -23,8 +23,8 @@
 
 ### Изображения сайта:
 
-![photo_1](https://github.com/kostin-s/short_test/blob/master/src/assets/1.PNG)
+![photo_1](https://github.com/kostin-s/short_link/blob/master/src/assets/1.PNG)
 
 ---
 
-![photo_2](https://github.com/kostin-s/short_test/blob/master/src/assets/2.PNG)
+![photo_2](https://github.com/kostin-s/short_link/blob/master/src/assets/2.PNG)
