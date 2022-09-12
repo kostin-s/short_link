@@ -1,0 +1,39 @@
+.ant-table-cell {
+  @apply text-xl break-all;
+}
+
+.ant-table-column-title {
+  @apply text-2xl;
+}
+
+.ant-pagination {
+  @apply flex-center;
+
+  .ant-pagination-item-link {
+    @apply w-[32px] h-[40px] relative top-[-6px] border-none;
+
+    .ant-pagination-item-ellipsis {
+      @apply top-[-26px] relative;
+    }
+
+    .ant-pagination-item-link-icon {
+      @apply top-[3px] relative;
+    }
+  }
+}
+
+.ant-pagination-item {
+  @apply h-auto;
+
+  a {
+    @apply py-1 px-3;
+  }
+}
+
+.ant-skeleton {
+  @apply w-full;
+
+  .ant-skeleton-button {
+    @apply h-[200px] w-full;
+  }
+}

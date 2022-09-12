@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "arrowParens": "avoid",
+  "importOrder": ["<THIRD_PARTY_MODULES>", "^../(.*)$", "^./(.*)$", "(.scss)$"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

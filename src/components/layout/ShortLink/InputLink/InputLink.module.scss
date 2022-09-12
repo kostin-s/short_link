@@ -1,0 +1,28 @@
+.short {
+  @apply flex justify-center sm:flex-col mt-8;
+
+  .input {
+    @apply w-full h-[56px] text-[18px] mr-10 mb-0 xl:mr-5 sm:mr-0;
+
+    input {
+      @apply h-[56px] text-[18px] border-[2px] static;
+
+      &:focus {
+        @apply shadow-none;
+      }
+
+      &::placeholder {
+        @apply text-[18px] static;
+      }
+    }
+
+    div[role='alert'] {
+      @apply text-[14px] static;
+    }
+  }
+
+  .button {
+    @apply h-[56px] w-[200px] sm:w-full sm:mt-4
+      text-[16px] bg-blue uppercase rounded-lg;
+  }
+}

@@ -1,0 +1,39 @@
+.result {
+  @apply flex-center flex-col w-full;
+
+  .content {
+    @apply flex justify-center w-full mt-6 sm:mt-10 sm:flex-col relative;
+
+    &.init::before {
+      content: 'Исходная ссылка';
+    }
+
+    &.short::before {
+      content: 'Сокращенная ссылка';
+    }
+
+    &::before {
+      @apply absolute top-0 left-[10px] z-10 text-blue;
+    }
+  }
+
+  .button {
+    @apply h-[56px] w-[200px] sm:w-full sm:mt-5
+      text-[16px] bg-blue uppercase rounded-lg;
+  }
+
+  .input {
+    @apply relative w-full h-[56px] text-[18px] pt-[16px] pb-[1px] mr-10 xl:mr-5 sm:mr-0 
+      border-x-0 border-t-0 border-b-2 border-blue
+      cursor-pointer bg-[#eaf4ff];
+
+    &:focus {
+      @apply shadow-none;
+    }
+
+    input,
+    label {
+      @apply cursor-pointer;
+    }
+  }
+}

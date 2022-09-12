@@ -1,0 +1,27 @@
+.form {
+  @apply flex-center flex-col w-full;
+
+  .title {
+    @apply w-full text-center text-3xl;
+  }
+
+  .input {
+    @apply w-full max-w-[400px] mb-3;
+
+    input {
+      @apply h-[56px] text-[18px] border-[2px] static;
+
+      &::placeholder {
+        @apply text-[18px] static;
+      }
+    }
+  }
+
+  .subtitle {
+    @apply w-full text-center text-2xl my-5;
+  }
+
+  .button {
+    @apply mt-5 h-auto py-2 px-5 text-[16px] bg-blue uppercase rounded-lg;
+  }
+}
