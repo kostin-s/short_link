@@ -3,7 +3,6 @@ import { FC, useCallback, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 
 import AuthForm from '../../components/layout/AuthForm/AuthForm';
-import WithoutAuth from '../../components/layout/WithoutAuth/WithoutAuth';
 import { useAuth } from '../../hooks/useAuth';
 
 import styles from './Auth.module.scss';
@@ -47,7 +46,6 @@ const Auth: FC = () => {
           </Button>
         </div>
         <AuthForm type={type} isLoading={isLoading} />
-        <WithoutAuth />
       </div>
     </div>
   );

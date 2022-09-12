@@ -4,6 +4,7 @@ import { Controller, SubmitHandler, useForm } from 'react-hook-form';
 
 import { useActions } from '../../../hooks/useActions';
 import { authType } from '../../../pages/Auth/auth.interface';
+import WithoutAuth from '../WithoutAuth/WithoutAuth';
 
 import styles from './AuthForm.module.scss';
 import { IAuthFields } from './form.interface';
@@ -104,6 +105,8 @@ const AuthForm: FC<IAuthForm> = props => {
       >
         {type === 'login' ? 'Войти' : 'Зарегистрироваться'}
       </Button>
+
+      <WithoutAuth />
     </form>
   );
 };

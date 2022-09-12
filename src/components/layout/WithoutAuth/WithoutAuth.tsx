@@ -22,7 +22,7 @@ const WithoutAuth: FC = () => {
 
   return (
     <div className={styles.wrapper}>
-      <Button className={styles.button} onClick={handleAuth} type='primary'>
+      <Button className={styles.button} onClick={handleAuth}>
         Войти без регистрации
       </Button>
     </div>

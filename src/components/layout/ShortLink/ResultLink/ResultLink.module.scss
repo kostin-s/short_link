@@ -24,8 +24,7 @@
 
   .input {
     @apply relative w-full h-[56px] text-[18px] pt-[16px] pb-[1px] mr-10 xl:mr-5 sm:mr-0 
-      border-x-0 border-t-0 border-b-2 border-blue
-      cursor-pointer bg-[#eaf4ff];
+      border-x-0 border-t-0 border-b-2 border-blue bg-[#eaf4ff] cursor-pointer;
 
     &:focus {
       @apply shadow-none;
